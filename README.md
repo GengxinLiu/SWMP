@@ -108,3 +108,9 @@ Please cite the paper in your publications if it helps your research:
 }
 ```
 
+## Acknowledgments
+
+Our graph neural network and axis selection network are based on [StructureNet](https://github.com/daerduoCarey/structurenet) and [DGCNN](https://github.com/WangYueFt/dgcnn),
+and the partial scans motion prediction network is based on [ANCSH](https://github.com/dragonlong/articulated-pose). Thanks these teams for their awesome codebase. Also thanks the team of
+[DSG-Net](https://github.com/IGLICT/DSG-Net) for providing the generated shapes.
+
