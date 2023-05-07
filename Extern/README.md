@@ -1,7 +1,7 @@
-In this code, we convert the `PartNet-Mobility` data and the `PartNet` data predicted by our model into the input format of `ANCSH`, and then train `ANCSH` and `ANCSH (semi-weakly)` which proposed in our paper.
+This directory includes the code for converting the `PartNet-Mobility` data and the `PartNet` data predicted by our model into the input format of `ANCSH`, and then train `ANCSH` and `ANCSH (semi-weakly)` which proposed in our paper.
 
 
-### Convert data
+## Convert data
 
 First run the following script to convert the `mobility_v2.json` format file into `shape2motion` format.
 
@@ -9,7 +9,7 @@ First run the following script to convert the `mobility_v2.json` format file int
 sh convert.sh
 ```
 
-### Train baseline ANCSH
+## Train baseline ANCSH
 
 Render the input data of `ANCSH` on the `PartNet-Mobility` dataset
 
@@ -23,7 +23,7 @@ Train the `ANCSH` baseline
 cd articulated-pose && sh ancsh.sh
 ```
 
-### Train our ANCSH(semi-weakly)
+## Train our ANCSH(semi-weakly)
 
 Render the input data on the `PartNet` dataset, and expand the training data.
 
