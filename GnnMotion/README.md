@@ -3,3 +3,8 @@ Train the graph neural network for each category on the `PartNet-Mobility` datas
 ```shell script
 python train_struct.py --category laptop
 ```
+
+You can train all categories by
+```shell script
+sh run.sh
+```
