@@ -100,10 +100,10 @@ Our code is released under MIT License. See LICENSE file for details.
 
 Please cite the paper in your publications if it helps your research:
 ```
-@article{liu2023semi,
+@inproceedings{liu2023semi,
   title={Semi-Weakly Supervised Object Kinematic Motion Prediction},
   author={Liu, Gengxin and Sun, Qian and Huang, Haibin and Ma, Chongyang and Guo, Yulan and Yi, Li and Huang, Hui and Hu, Ruizhen},
-  journal={arXiv preprint arXiv:2303.17774},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
   year={2023}
 }
 ```
