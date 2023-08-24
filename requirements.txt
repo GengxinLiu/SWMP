@@ -1,0 +1,13 @@
+h5py==3.7.0
+imageio==2.21.1
+matlab==0.1
+matplotlib==3.5.2
+numpy==1.23.0
+open3d==0.15.1
+pandas==1.4.3
+pyvista==0.36.1
+scipy==1.8.1
+torch==1.8.1+cu111
+torch_scatter==2.0.6
+tqdm==4.64.0
+trimesh==3.13.4
